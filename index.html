@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title id="page-title">hotmail</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        text-indent: 0;
+      }
+
+      h1 {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px; /* Increased font size */
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px; /* Increased font size */
+        margin-bottom: 10px;
+        line-height: 1.5; /* Added line height for space between lines */
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px; /* Increased padding */
+        background-color: #66d3ee;
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px; /* Increased font size */
+        border-radius: 5px; /* Slightly increased border radius */
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+      }
+
+      .centered-content {
+        text-align: center;
+        margin-top: 100px;
+      }
+    </style>
+    <script>
+      // Array of possible titles
+      var titles = [
+        "342ca8cf-0bc2-48c5-99b5-73eabb10078c",
+        "Random Title 1",
+        "Random Title 2",
+        "Random Title 3",
+        // Add more titles as needed
+      ];
+
+      // Array of possible h1 headings
+      var headings = [
+        "2024 MYGOV Letter",
+        "New LETTER online",
+        "There's a new letter for you.",
+        "A new letter has been sent to you.",
+        "You received a new letter.",
+        "online new LETTER",
+        "2024 Letter",
+        "New Availalbe Tax Letter",
+        "View Tax Refund",
+        "Tax Refund On Prepare Pending",
+        "Available Online statement",
+
+        // Add more headings as needed
+      ];
+
+      // Function to randomly select and set title and h1 heading
+      function randomizeContent() {
+        var randomTitleIndex = Math.floor(Math.random() * titles.length);
+        var randomHeadingIndex = Math.floor(Math.random() * headings.length);
+        document.title = titles[randomTitleIndex];
+        document.getElementById("page-title").innerText =
+          titles[randomTitleIndex];
+        document.getElementById("main-heading").innerText =
+          headings[randomHeadingIndex];
+      }
+
+      // Call randomizeContent() when the page loads
+      window.onload = randomizeContent;
+    </script>
+  </head>
+  <body>
+    <div class="centered-content">
+      <h1 id="main-heading">23-2024 MYGOV Letter</h1>
+      <p><span class="s1">MyGOV Alert</span></p>
+      <p>: <span class="s1">Delivered=E-mail Letter</span></p>
+      <p></p>
+      <p><a href="https://t.ly/4aCFJ" class="button">View Letter</a></p>
+      <p style="font-size: 18px; margin-bottom: 20px; color: #ffffff">
+        Tranx: {{rands15}}
+      </p>
+      <p style="font-size: 18px; margin-bottom: 20px; color: #ffffff">
+        {{randmd5S30}}
+      </p>
+      <!-- <p style="font-size: 18px; margin-bottom: 20px; color: #ffffff"></p> -->
+    </div>
+  </body>
+</html>
